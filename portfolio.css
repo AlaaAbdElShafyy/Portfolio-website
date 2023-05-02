@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Tajawal', sans-serif;
+    
+   
+}
+
+
+
+
+
+.container{
+height: 100vh;
+width:100%;
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+box-sizing: border-box;
+position: relative;
+display: flex;
+background: rgb(247,254,255);
+background: linear-gradient(90deg, rgba(247,254,255,1) 0%, rgba(119,201,190,1) 41%, rgba(35,99,112,1) 85%);
+
+}
+.navbar{
+width: 100%;
+height: 15vh;
+margin: auto;
+display:flex;
+align-items: center;
+
+
+}
+nav{
+    flex: 1;
+    padding-left: 120px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    }
+    nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 0px 20px ;
+    top: 10px;
+    left: 10px;
+    
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: #333;
+    }
+
+    .social-links{
+        transform:rotate(-90deg);
+        position: absolute;
+        left: -80px;
+        bottom: 180px;
+    }
+    .social-links a {
+        text-decoration: none;
+        color:#6a7199 ;
+        padding-right: 20px;
+        font-size: 14px;
+        }
+
+        .bar::after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background:linear-gradient(45deg, #87adfe, #ff77cd) ;
+            transition: width .3s;
+           }
+           .bar:hover::after{
+               width: 100%;
+               transition: width .3s;
+           }
+
+
+
+
+           .small-img2 img{
+            height: 80px;
+            margin: 10px 0px;
+            cursor: pointer;
+            display: block;
+            opacity: .6;
+            
+        }
+        .small-img2 img:hover{
+            opacity: 1;
+        }
+           
+    
+    
+        
+        .album2{
+            top: 26%;
+            left: 55%;
+            position: absolute;
+        }
+
+       .img-container2 img{
+        height: 420px;
+        position: absolute;
+        top: 5%;
+        left: 90px;
+        
+
+    }
+    .img-container2{
+        
+        padding: 10px;
+       
+               
+    }
+
+
+        
+        .dis2{
+            font-size: 20px;
+        font-weight: 100;
+        color: #3c4572;
+        position: absolute;
+        top: 460px;
+        left: 200px;
+        }
+
+
+
+
+
+
+        .small-img img{
+            height: 80px;
+            margin: 10px 0px;
+            cursor: pointer;
+            display: block;
+            opacity: .6;
+        }
+        .small-img img:hover{
+            opacity: 1;
+        }
+
+
+
+
+        .album{
+            top: 5px;
+            right: 600px;
+            position: absolute;
+        }
+        .img-container img{
+            height: 420px;
+            position: absolute;
+            top: 5%;
+            left: 110%;
+            
+    
+        }
+        .img-container{
+            
+            padding: 10px;
+           
+                   
+        }
+        .dis1{
+            font-size: 20px;
+        font-weight: 100;
+        color: #3c4572;
+        position: absolute;
+        top: 460px;
+        right: 300px;
+        }
